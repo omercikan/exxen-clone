@@ -1,0 +1,167 @@
+/* HEADER */
+#header-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--exxen-yellow);
+    padding: 30px;
+}
+
+.header-btn {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+
+.langue-select {
+    align-self: center;
+}
+
+#langue {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+}
+
+option {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/* NAVBAR */
+#navbar-container {
+    background-color: #0f0f0f;
+    padding: 35px;
+}
+
+#main-nav {
+    position: sticky;
+    top: -1px;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* MAİN */
+main {
+    background-color: var(--black);
+}
+
+/* main-bg img */
+#main-bg a{
+    display: flex;
+    justify-content: center;
+}
+
+#main-bg img {
+    width: 65%;
+    margin: 40px 0px;
+}
+
+/* POSTERS SECTİON */
+#poster-row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+    margin: auto;
+    gap: 30px;
+}
+
+.poster-col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.poster-col img {
+    width: 100%;
+    display: flex;
+}
+
+.poster-col figcaption {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin: 15px 0px;
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+footer {
+    background-color: var(--black);
+}
+
+#footer-photo {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-photo img{
+    width: 25%;
+    margin-top: 40px;
+}
+
+.footer-content {
+    color: var(--white);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    width: 53%;
+    margin: 40px auto;
+}
+
+.footer-store {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.footer-store img{
+    height: 5vh;
+    display: flex;
+    margin: auto;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+
+.fa-brands {
+    background-color: var(--white);
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 2.6rem;
+    color: var(--black);
+}
+
+.footer-end {
+    text-align: center;
+    margin: auto;
+    background-color: #090909;
+    padding: 20px;
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.exxen-sup {
+    color: #ffcb04;
+    font-family: 'Inter', sans-serif;
+    font-size: 20.8px;
+    font-weight: bold;
+}
+
+.footer-end2 a {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+}
